@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="icon" href="../files/main_images/logo2.png" />
+    <link rel="stylesheet" href="../CSS/stayle.css">
+    <link rel="stylesheet" href="../CSS/sidepar.css">
+    <title>روزا | ROSA</title>
+    <link rel="stylesheet" href="../CSS/contact_us.css">
+</head>
+
+<body>
+    <!--the header -->
+    <nav  class="navbar" fixed-header>
+
+        <div class="container" id="top_h">
+            <a class="navbar-brand" href="#">
+                <img style="padding: 3px;" src="../files/main_images/logo2.png" alt="Logo" width="50" height="50">
+                ROSA
+            </a>
+
+            <ul>
+                <li>
+                    <a href="cart.html">
+                        <img style="padding: 3px;" src="../files/main_images/cart.png" alt="Logo" width="30"
+                            height="30">
+                    </a>
+                </li>
+
+                <li>
+                    <a class="open-btn" onclick="toggleSidebar()">
+                        ☰
+                    </a>
+                </li>
+
+                <div id="sidebar">
+                    <button class="close-btn" onclick="closeSidebar()">✕ </button>
+                    <a href="../index.html">HOME</a>
+                    <a href="../PAGES/orders.html">ORDERS</a>
+                    <a href="../PAGES/my_favorites.html"> FAVORITES</a>
+                    <a href="../PAGES/admin_pages/dashboard.html">DASHBOARD</a>
+                    <a href="../PAGES/auth/login.html">LOGIN</a>
+                    <a href="../PAGES/auth/register.html">REGISTER</a>
+                    <!-- <a href="#">LOG OUT</a> -->
+               </div>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div style="    height: 67px;"></div>
+    <div class="body">
+        <div class="login-container">
+            <form class="login-form">
+                <center>
+                    <img class="img1" src="../files/main_images/paper-plane-330.png" alt="">
+                </center>
+                <center>
+                    <h2>contact us</h2>
+                    <h4>please fill this form in a decent manner</h4>
+                </center>
+                <br>
+                <label class="lab1" for="">Username</label>
+                <input type="text" placeholder="Username " required>
+                <br>
+                <label class="lab2" for="">E-mail</label>
+                <input type="email" placeholder="E-mail" required>
+                <br>
+                <label class="lab3" for="">Message</label>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Add message"></textarea>
+                <br>
+                <br>
+
+                <button type="submit">submit</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <center>
+          <P>@ Disign by Ra3d</P>
+        </center>
+    </footer>
+    <script src="../JS/sidepar.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="../../CSS/stayle.css">
+    <link rel="stylesheet" href="../../CSS/auth.css">
+    <link rel="stylesheet" href="../../CSS/sidepar.css">
+</head>
+
+<body>
+    <!--the header -->
+    <nav class="navbar" fixed-header>
+        <div class="container" id="top_h">
+            <a class="navbar-brand" href="#">
+                <img style="padding: 3px;" src="../../files/main_images/logo2.png" alt="Logo" width="50" height="50">
+                ROSA
+            </a>
+
+            <ul>
+                <li>
+                    <a href="#">
+                        <img style="padding: 3px;" src="../../files/main_images/cart.png" alt="Logo" width="30" height="30">
+                    </a>
+                </li>
+                <li>
+                    <a class="open-btn" onclick="toggleSidebar()">
+                        ☰
+                    </a>
+                </li>
+
+                <div id="sidebar">
+                    <button class="close-btn" onclick="closeSidebar()">✕ </button>
+                    <a href="../../index.html">HOME</a>
+                    <a href="../../PAGES/orders.html">ORDERS</a>
+                    <a href="../../PAGES/my_favorites.html"> FAVORITES</a>
+                    <a href="../../PAGES/admin_pages/dashboard.html">DASHBOARD</a>
+                    <a href="../../PAGES/contact_us.html"> CONTACT</a>
+                    <a href="../auth/register.html">REGISTER</a>
+                    <!-- <a href="#">LOG OUT</a> -->
+               </div>
+            </ul>
+        </div>
+    </nav>
+    <div style="    height: 67px;"></div>
+
+    <div class="overlay">
+        <form>
+            <div class="con">
+                <header class="head-form">
+                    <img style="padding: 3px;" src="../../files/main_images/logo2.png" alt="Logo" width="50" height="50">
+                    <h2> LOGIN </h2>
+                </header>
+                <br>
+                <div class="field-set">
+                    <input class="form-input" id="txt-input" type="email" placeholder=" Email">
+                    <br>
+                    <input class="form-input" type="password" placeholder="Password" id="pwd" name=" Password">
+                </div>
+                <br>
+                <button id="btn" class="log-in"><a href="../index.html">LOGIN</a></button>
+                <a href="../auth/forget_pass_step1.html">Forget Password ?</a>
+            </div>
+            <!-- End Form -->
+        </form>
+    </div>
+    <footer class="footer">
+        <center>
+            <P>@ Disign by Ra3d</P>
+        </center>
+    </footer>
+
+    <script src="../../JS/sidepar.js"></script>
+
+</body>
+
+</html>
