@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/stayle.css">
+    <link rel="stylesheet" href="../CSS/sidepar.css">
+    <link rel="stylesheet" href="../CSS/cart.css">
+    <link rel="icon" href="../files/main_images/logo2.png" />
+    <link rel="stylesheet" href="../CSS/visa.css">
+    <title>روزا | ROSA</title>
+</head>
+
+<body>
+    <!--the header -->
+    <nav id="#top" class="navbar" fixed-header>
+
+        <div class="container" id="top_h">
+            <a class="navbar-brand" href="#">
+                <img style="padding: 3px;" src="../files/main_images/logo2.png" alt="Logo" width="50" height="50">
+                ROSA
+            </a>
+
+            <ul>
+                <li>
+                    <a href="cart.html">
+                        <img style="padding: 3px;" src="../files/main_images/cart.png" alt="Logo" width="30"
+                            height="30">
+                    </a>
+                </li>
+
+                <li>
+                    <a class="open-btn" onclick="toggleSidebar()">
+                        ☰
+                    </a>
+                </li>
+
+                <div id="sidebar">
+                    <button class="close-btn" onclick="closeSidebar()">✕ </button>
+                    <a href="../index.html">HOME</a>
+                    <a href="../PAGES/orders.html">ORDERS</a>
+                    <a href="../PAGES/my_favorites.html"> FAVORITES</a>
+                    <a href="../PAGES/admin_pages/dashboard.html">DASHBOARD</a>
+                    <a href="../PAGES/contact_us.html"> CONTACT</a>
+                    <a href="../PAGES/auth/login.html">LOGIN</a>
+                    <a href="../PAGES/auth/register.html">REGISTER</a>
+                    <!-- <a href="#">LOG OUT</a> -->
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div style="    height: 67px;"></div>
+    <center>
+        <h6><a href="../index.html">Home</a> > <a href="../PAGES/cart.html">Cart</a> > <a
+                href="../PAGES/checkout.html">Check
+                Out</a>>VISA </h6>
+    </center>
+    <center>
+        <h1> VISA</h1>
+    </center>
+    <div class="body">
+        <form>
+            <header class="head-form">
+                <h2>TOTAL: <span> 8,650.00 EGP</span></h2>
+            </header>
+            <hr>
+            <div>
+                <label for="card_number">Card Number</label>
+                <br>
+                <input type="text" id="card_number" name="card_number" required style="width: max-content;">
+            </div>
+            <img src="../files/main_images/WhatsApp Image 2023-12-12 at 19.35.41_7342f2bd.jpg" style="height: 20px;
+    width: 30px;">
+            <img src="../files/main_images/WhatsApp Image 2023-12-12 at 19.35.41_2faf5f60.jpg" style="height: 20px;
+    width: 30px;">
+            <br>
+            <br>
+            <div style="    display: flex;">
+                <div>
+                    <label for="expiry_month">Expiry Month</label>
+                    <select id="expiry_month" name="expiry_month" style="width: min-content;display: flex;">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="expiry_year">Expiry Year</label>
+                    <select id="expiry_year" name="expiry_year" style="width: min-content;;display: flex;">
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <br>
+            <label for="cardholder_name">Cardholder Name</label>
+            <br>
+            <input type="text" id="cardholder_name" name="cardholder_name" required>
+            <br>
+            <br>
+            <label for="security_code">Security Code</label>
+            <br>
+            <input type="number" id="security_code" name="security_code" min="100" max="999" required
+                style="width: min-content;">
+            <br>
+            <br>
+            <p style="font-size: large;">The next screen you see may be payment card verification through your card
+                issuer </p>
+            <br>
+            <br>
+            <CEnter>
+                <button>cancel</button>
+                <button>SUBMIT</button>
+            </CEnter>
+        </form>
+    </div>
+    <footer class="footer">
+        <center>
+            <P>@ Disign by Ra3d</P>
+        </center>
+    </footer>
+
+    <script src="../JS/sidepar.js"></script>
+</body>
+
+</html>

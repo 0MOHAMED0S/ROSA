@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../files/main_images/logo2.png" />
+    <title>روزا | ROSA</title>
+        <link rel="stylesheet" href="../../CSS/stayle.css">
+    <link rel="stylesheet" href="../../CSS/cart.css">
+    <link rel="stylesheet" href="../../CSS/orders.css">
+    <link rel="stylesheet" href="../../CSS/sidepar.css">
+
+</head>
+
+<body>
+    <!--the header -->
+    <nav id="#top" class="navbar" fixed-header>
+        <a href="#top" id="scrollLabel">Up</a>
+    
+        <div class="container" id="top_h">
+            <a class="navbar-brand" href="#">
+                <img style="padding: 3px;"  src="../../files/main_images/logo2.png" alt="Logo" width="50" height="50">
+                ROSA
+            </a>
+
+            <ul>
+                <li>
+                    <a href="../PAGES/cart.html">
+                        <img style="padding: 3px;" src="../../files/main_images/cart.png" alt="Logo" width="30" height="30">
+                    </a>
+                </li>
+                <li>
+                    <a class="open-btn" onclick="toggleSidebar()">
+                        ☰
+                    </a>
+                </li>
+
+                <div id="sidebar">
+                    <button class="close-btn" onclick="closeSidebar()">✕ </button>
+                    <a href="../../index.html">HOME</a>
+                    <a href="../PAGES/orders.html">ORDERS</a>
+                    <a href="../PAGES/my_favorites.html"> FAVORITES</a>
+                    <a href="../PAGES/admin_pages/dashboard.html">DASHBOARD</a>
+                    <a href="../PAGES/contact_us.html"> CONTACT</a>
+                    <a href="../PAGES/auth/login.html">LOGIN</a>
+                    <a href="../PAGES/auth/register.html">REGISTER</a>
+                    <!-- <a href="#">LOG OUT</a> -->
+               </div>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div style="    height: 57px;"></div>
+    <main >
+        <div class="track">
+          <h2>dashboard</h2>
+          <a href="../../index.html">home</a>
+          <span>/ <a href="../admin_pages/dashboard.html">Dashboard</a> /Orders </span>
+        </div>
+        <div class="admin">
+    
+        </div>
+      </main>
+    <section>
+        <div class="main-section">
+            <h4>Order 2 ----- 9/12/2023 </h4>
+            <table id="first_table">
+                <TR>
+                    <TH>ID</TH>
+                    <TD>2</TD>
+                </TR>
+                <TR>
+                    <TH>NAME</TH>
+                    <TD>AHMED</TD>
+                </TR>
+                <TR>
+                    <TH>ADDRESS</TH>
+                    <TD>CAIRO</TD>
+                </TR>
+                <TR>
+                    <TH>EMAIL</TH>
+                    <TD>am@gmail.com</TD>
+                </TR>
+                <TR>
+                    <TH>PHONE</TH>
+                    <TD>+201110562097</TD>
+                </TR>
+                <TR>
+                    <TH>TYPE</TH>
+                    <TD>VISA</TD>
+                </TR>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="../../files/main.png" alt="Product 1">
+                            <h3>spanish rose 1</h3>
+                        </td>
+                        <td>$19.99</td>
+                        <td>
+                            2
+                        </td>
+                        <td>$390.98</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../../files/PRODUCT2.webp" alt="Product 2">
+                            <h3>spanish rose 2</h3>
+                        </td>
+                        <td>$24.99</td>
+                        <td>
+                            5
+                        </td>
+                        <td>$2400.99</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+
+            <center>
+                <h1>TOTAL : <span> $ 15000</span> VISA</h1>
+            </center>
+            <center>
+                <DIV style="display: flex;gap:15px;">
+                    <BUtton class="shop_now">ACSEPT</BUtton>
+                <BUtton class="shop_now">NOT ACSEPT</BUtton>
+                </DIV>
+            </center>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <div class="main-section">
+            <h4>Order 1 ----- 5/11/2023 <SPan style="color: rgb(0, 255, 0);">DONE</SPan></h4>
+            <table id="first_table2">
+                <TR>
+                    <TH>ID</TH>
+                    <TD>1</TD>
+                </TR>
+                <TR>
+                    <TH>NAME</TH>
+                    <TD>ALI</TD>
+                </TR>
+                <TR>
+                    <TH>ADDRESS</TH>
+                    <TD>CAIRO</TD>
+                </TR>
+                <TR>
+                    <TH>EMAIL</TH>
+                    <TD>aLm@gmail.com</TD>
+                </TR>
+                <TR>
+                    <TH>PHONE</TH>
+                    <TD>+201110562897</TD>
+                </TR>
+                <TR>
+                    <TH>TYPE</TH>
+                    <TD>CASH</TD>
+                </TR>
+            </table>
+            <table style="    BACKGROUND-COLOR: #07c6001a;            ">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="../../files/main.png" alt="Product 1">
+                            <h3>spanish rose 1</h3>
+                        </td>
+                        <td>$19.99</td>
+                        <td>
+                            2
+                        </td>
+                        <td>$390.98</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../../files/PRODUCT2.webp" alt="Product 2">
+                            <h3>spanish rose 2</h3>
+                        </td>
+                        <td>$24.99</td>
+                        <td>
+                            5
+                        </td>
+                        <td>$2400.99</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+            <center>
+                <h1>TOTAL : <span> $ 15000</span> CASH</h1>
+            </center>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <br>
+    </section>
+
+    <footer class="footer">
+        <center>
+            <P>@ Disign by Ra3d</P>
+        </center>
+    </footer>
+    <script src="../../JS/sidepar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+
+H1{
+    margin: 20PX;
+}
+
+.page-home{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px 0;
+    line-height: 25px;
+    background-color: #ece4ec;
+    border: 2PX solid #ff0076;
+    margin-top: 50px;
+}
+form  .form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+form  .form-header .header-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form  input, 
+form  label ,
+form  textarea {
+    padding-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+form input{
+    width: 70%;
+    height: 30px;
+    outline: none;
+    margin-bottom: 15px;
+    border: 2PX solid #afafaf;
+    padding: 5px;
+}
+form label{
+    margin-top: 15PX;
+    color: #67696b;
+
+}
+form  textarea {
+    width: 100%;
+    border: 2PX solid #afafaf;
+}
+h1{
+    color: #67696b;
+}
+
+
+button{
+    width: 100px;
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff0076;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    border: none;
+    background-color:white ;
+    color: #ff0076;
+    border: 2PX solid #ff0076;
+}
+span{
+    color: #ff0076;
+}
+
+
+
+
+
+
+
+main {
+    display: flex;
+    height: 50px;
+    background-color: var(--color-eee, #eee);
+    align-items: center;
+    gap: 10px;
+    padding: var(--start-page, 0 10px);
+    box-shadow: var(--box-shadow-lne, 1px 1px 5px 0px #bababa);
+    text-transform: capitalize;
+  }
+  .track {
+    display: inherit;
+    align-items: var(--align-it, center);
+  }
+  .track > h2,
+  .track > span,
+  .track > a {
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+  }
+  main > h2 {
+    color: #67696b;
+  }
+  main > a,
+  main > p {
+    font-weight: bold;
+  }
+  span a{
+    text-decoration: none;
+  }
