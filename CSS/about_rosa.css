@@ -1,0 +1,66 @@
+h1 {
+    font-size: 40px;
+    font-family: monospace;
+    margin-bottom: 50px;
+}
+
+.p1 {
+    max-width: 600px;
+    width: -webkit-fill-available;
+
+    font-weight: normal;
+    font-family: 'Josefin Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 20px;
+    color: #3c3834;
+    line-height: 1.8;
+    letter-spacing: 1.4px;
+}
+
+h3 {
+    font-weight: normal;
+    font-family: 'Josefin Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 40px;
+
+    color: #3c3834;
+    margin-bottom: 77px;
+
+
+}
+
+h2 {
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #b5ccc2;
+    margin-top: 60px;
+}
+
+.h2 {
+    color: #3c3834;
+    font-size: 30px;
+    max-width: 650px;
+    width: -webkit-fill-available;
+
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+
+.p2 {
+    font-weight: normal;
+    max-width: 600px;
+    width: -webkit-fill-available;
+    font-size: 18px;
+    font-family: 'Josefin Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    line-height: 1.8;
+    letter-spacing: 1.5px;
+    color: #3c3834;
+    margin-bottom: 80px;
+
+}
+
+center img {
+    WIDTH: -webkit-fill-available;
+    MAX-WIDTH: 700PX;
+}
