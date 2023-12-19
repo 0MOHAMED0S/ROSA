@@ -1,0 +1,106 @@
+section {
+    background-color: white;
+}
+
+h1 {
+    color: #ff0076;
+    font-family: math;
+    font-size: xx-large;
+}
+
+center {
+    margin: 10px;
+}
+footer center{
+    margin: 0px;
+}
+center h6 {
+    margin: 0;
+    font-size: 15px;
+}
+
+center h6 a {
+    text-decoration: none;
+}
+
+.ceo {
+    display: inline;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+table tbody tr td img {
+    height: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.delete-btn {
+    background-color: #ff0076;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.quantity-input {
+    width: 40px;
+    text-align: center;
+}
+
+.quantity-btn {
+    background-color: #ff0076;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    section div h1 {
+        FONT-SIZE: 25PX;
+    }
+
+    section {
+        margin-top: 18px;
+    }
+
+    th,
+    td {
+        padding: 0;
+    }
+    .quantity-input {
+        text-align: center;
+    }
+    
+    table tbody tr td img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-height: 461px) {
+    .main-section {
+        height: auto;
+        margin: 50px;
+    }
+}

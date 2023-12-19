@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: serif, Georgia, "Times New Roman", Times;
+}
+:root {
+  --color-eee: #eee;
+  --color-white: white;
+  --color-blue: #5c6bc0;
+  --color-yellow: yellow;
+  --color-svg: #546e7a;
+  --align-it: center;
+  --box-shadow-lne: 1px 1px 5px 0px #bababa;
+  --pad-page: 0 10px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: var(--align-it, center);
+  width: 100%;
+  height: 50px;
+  background-color: var(--color-eee, #eee);
+  padding: var(--pad-page, 0 10px);
+  position: relative;
+  box-shadow: var(--box-shadow-lne, 1px 1px 5px 0px #a2a2a2);
+}
+.track {
+  display: inherit;
+  align-items: var(--align-it, center);
+}
+.track > h2,
+.track > span,
+.track > a {
+  margin-right: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+aside.menu {
+  position: fixed;
+  top: 0;
+  left: -285px;
+  width: 285px;
+  min-height: 100vh;
+  background-color: #333;
+  z-index: 2;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+}
+aside.menu.active {
+  left: 0;
+}
+aside.menu > h2 {
+  background-color: #ffffff2f;
+  height: 55px;
+}
+aside.menu > h2,
+aside.menu > ul > li.menu-item {
+  padding: 5px 15px 0;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+aside.menu > ul {
+  height: 94vh;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+aside.menu > ul,
+aside.menu > ul > li.menu-item {
+  width: 100%;
+}
+aside.menu > ul > li.menu-item {
+  position: relative;
+  list-style-type: none;
+  font-size: 20px;
+  border-bottom: solid 2px transparent;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+aside.menu > ul > li.menu-item > ul {
+  display: block;
+}
+aside.menu > ul > li.menu-item > ul::after {
+  content: "";
+  position: absolute;
+  right: 7px;
+  top: 26px;
+  border: 10px;
+  border-style: double;
+  border-color: #90caf9 transparent transparent transparent;
+}
+aside.menu > ul > li.menu-item:hover {
+  transform: scale(1.05) translateY(-2px);
+  -webkit-transform: scale(1.05) translateY(-2px);
+  -moz-transform: scale(1.05) translateY(-2px);
+  -ms-transform: scale(1.05) translateY(-2px);
+  -o-transform: scale(1.05) translateY(-2px);
+  background-color: #ffffff2f;
+}
+aside.menu > ul > li.menu-item:hover::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  bottom: -2px;
+  width: 100%;
+  border-bottom: solid 2px var(--color-yellow, yellow);
+  transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  -o-transition: all 0.4s ease-in-out 0s;
+}
+aside.menu > ul > li.menu-item > a {
+  color: var(--color-white, white);
+}
+aside.menu > .show {
+  position: absolute;
+  /* width: fit-content; */
+  top: 50vh;
+  right: -30px;
+  /* z-index: 2; */
+  cursor: pointer;
+  /* transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear; */
+  z-index: 9;
+}
+aside.menu > .show > svg {
+  width: 25px;
+  height: 30px;
+  fill: var(--color-svg);
+}
+aside.menu > .active > svg {
+  animation: showIcon 2s linear infinite;
+  -webkit-animation: showIcon 2s linear infinite;
+}
+@keyframes showIcon {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+section {
+  display: flex;
+  align-content: flex-start;
+  gap: 2px;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  min-height: 75vh;
+  background-color: #f5f5f5;
+  padding-top: 44px;
+  justify-content: center;
+}
+section > .card {
+  position: relative;
+  display: inherit;
+  justify-content: center;
+  background-color: var(--color-white, white);
+  flex-basis: 235px;
+  width: 235px;
+  height: 150px;
+  margin: 0 15px 15px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #0000005c;
+  Z-INDEX: 1;
+  transition: 0.5s;
+}
+section > .card:hover {
+border: 2px solid var(--color-blue);
+}
+section > .card > a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+section > .card > .icon {
+  position: absolute;
+  width: 104px;
+  height: 205px;
+  top: -60px;
+  left: -25px;
+  background-color: var(--color-eee, #eee);
+  transform: rotate(42deg);
+  -webkit-transform: rotate(42deg);
+  -moz-transform: rotate(42deg);
+  -ms-transform: rotate(42deg);
+  -o-transform: rotate(42deg);
+  z-index: 1;
+}
+section > .card > .icon > svg {
+  position: absolute;
+  bottom: 60px;
+  right: 4px;
+  width: 55px;
+  height: 100px;
+  transform: rotate(270deg);
+}
+section > .card > .icon > svg > path {
+  fill: var(--color-svg, #546e7a);
+}
+section > .card > .add > svg > path {
+  fill: var(--color-blue, #5c6bc0);
+}
+
+section > .card > .add {
+  position: absolute;
+  display: inherit;
+  justify-content: flex-end;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  top: 0;
+  right: 0;
+  color: var(--color-blue, #5c6bc0);
+  background-color: var(--color-eee, #eee);
+  border-radius: 0 0 0 100%;
+  font-size: 35px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+section > .card > .num-people {
+  /* position: absolute;
+  bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center; */
+  position: absolute;
+  margin-left: 20px;
+  bottom: 36px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  transform: rotate(341deg);
+  color: var(--color-svg, #546e7a);
+}
+section > .card > .num-people > span.number {
+  margin-left: 8px;
+}
+@media (max-width: 579px) {
+  section > .card {
+    flex-grow:1;
+  }
+  aside.menu {
+    width: 60vw;
+    left: -60vw;
+  }
+}
