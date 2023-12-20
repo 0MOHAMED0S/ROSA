@@ -152,3 +152,12 @@ textarea {
     height: 91px;
     border-radius: 10px;
 }
+
+select{
+    width: 250px;
+    height: 34px;
+    border-radius: 20px;
+}
+select option{
+    text-align: center;
+}
