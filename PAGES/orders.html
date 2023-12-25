@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="../files/main_images/logo2.png" />
+    <title>ORDERS</title>
+        <link rel="stylesheet" href="../CSS/stayle.css">
+    <link rel="stylesheet" href="../CSS/cart.css">
+    <link rel="stylesheet" href="../CSS/orders.css">
+    <link rel="stylesheet" href="../CSS/sidepar.css">
+
+</head>
+
+<body>
+    <!--the header -->
+    <nav id="#top" class="navbar" fixed-header>
+        <a href="#top" id="scrollLabel">Up</a>
+    
+        <div class="container" id="top_h">
+            <a class="navbar-brand" href="./about_rosa.html">
+                <img style="padding: 3px;"  src="../files/main_images/logo2.png" alt="Logo" width="50" height="50">
+                ROSA
+            </a>
+
+            <ul>
+                <li>
+                    <a href="../PAGES/cart.html">
+                        <img style="padding: 3px;" src="../files/main_images/cart.png" alt="Logo" width="30" height="30">
+                    </a>
+                </li>
+                <li>
+                    <a class="open-btn" onclick="toggleSidebar()">
+                        ☰
+                    </a>
+                </li>
+
+                <div id="sidebar">
+                    <button class="close-btn" onclick="closeSidebar()">✕ </button>
+                    <a href="../index.html">HOME</a>
+                    <a href="../PAGES/my_favorites.html"> FAVORITES</a>
+                    <a href="../PAGES/admin_pages/dashboard.html">DASHBOARD</a>
+                    <a href="../PAGES/about_rosa.html">ABOUT US</a>
+                    <a href="../PAGES/contact_us.html"> CONTACT US</a>
+                    <a href="../PAGES/auth/login.html">LOGIN</a>
+                    <!-- <a href="../PAGES/auth/register.html">REGISTER</a> -->
+                    <a href="../PAGES/auth/log_out.html">LOG OUT</a>
+                    <a href="../PAGES/about_ra3d.html">RA3D TEAM</a>
+               </div>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div style="    height: 67px;"></div>
+    <section>
+        <center>
+            <h6><a href="../index.html">Home</a> > Orders </h6>
+        </center>
+        <center>
+            <h1> Orders </h1>
+        </center>
+        <div class="main-section">
+            <h4>Order 2 ----- 9/12/2023 </h4>
+            <h5> ADDRESS : cairo</h5>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="../PAGES/product_details.html" class="canonical">
+                                <div class="img-cont">
+                                    <img src="../files/images/Jqcj4oGC3vqT6Us9nsPznzO2RlquxWak74RfuaGD.png" alt="Product 1">
+                                </div>
+                            </a>
+                            <h3> Subtle Freshness </h3>
+                        </td>
+                        <td>199.99 EGP</td>
+                        <td>
+                            2
+                        </td>
+                        <td>399.38 EGP</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="../PAGES/fake_data.html/p7.html" class="canonical">
+                                <div class="img-cont">
+                                    <img src="../files/images/8XxDPSVrif5ZrMTs5zriDGz3YvnokY9J849YdMj4yl.png" alt="" />
+                                </div>
+                            </a>
+                            <h3> Golden Hour</h3>
+                        </td>
+                        <td>239.99 EGP</td>
+                        <td>
+                            5
+                        </td>
+                        <td>1199.95 EGP</td>
+                    </tr>
+                </tbody>
+            </table>
+            <center>
+                <h1>TOTAL : <span>  1599.33  EGP</span> </h1>
+            </center>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <div class="main-section">
+            <h4>Order 1 ----- 5/11/2023 <SPan style="color: rgb(0, 255, 0);">DONE</SPan></h4>
+            <h4> address:cairo</h4>
+            <table style="    BACKGROUND-COLOR: #07c6001a;            ">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="../PAGES/product_details.html" class="canonical">
+                                <div class="img-cont">
+                                    <img src="../files/images/Jqcj4oGC3vqT6Us9nsPznzO2RlquxWak74RfuaGD.png" alt="Product 1">
+                                </div>
+                            </a>
+                            <h3> Subtle Freshness </h3>
+                        </td>
+                        <td>199.99 EGP</td>
+                        <td>
+                            2
+                        </td>
+                        <td>399.38 EGP</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="../PAGES/fake_data.html/p7.html" class="canonical">
+                                <div class="img-cont">
+                                    <img src="../files/images/8XxDPSVrif5ZrMTs5zriDGz3YvnokY9J849YdMj4yl.png" alt="" />
+                                </div>
+                            </a>
+                            <h3> Golden Hour</h3>
+                        </td>
+                        <td>239.99 EGP</td>
+                        <td>
+                            5
+                        </td>
+                        <td>1199.95 EGP</td>
+                    </tr>
+                </tbody>
+            </table>
+            <center>
+                <h1>TOTAL : <span>  1599.33  EGP</span> </h1>
+            </center>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <br>
+    </section>
+    <footer class="footer">
+        <center>
+          <P><a  href="./about_ra3d.html">@ Designed by  Ra3d</a></P>
+        </center>
+      </footer>
+    <script src="../JS/sidepar.js"></script>
+</body>
+
+</html>

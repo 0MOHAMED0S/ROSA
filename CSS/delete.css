@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece4ec;
+}
+
+.contenar {
+    position: absolute;
+    width: -webkit-fill-available;
+    max-width: 450px;
+    padding: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    margin: 5px;
+}
+
+.a_1 {
+    position: absolute;
+    width: 80px;
+    background-color: #ece4ec;
+    border-radius: 40px;
+
+    padding: 15px;
+    margin-top: -17%;
+    margin-left: 35%;
+}
+
+.x1 {
+    width: 14px;
+    height: 17px;
+    position: absolute;
+    margin-top: -4%;
+}
+
+.start {
+    text-align: center;
+    margin: 5%;
+
+}
+
+.start h3 {
+    padding: 10px;
+}
+
+.start h5 {
+    padding: 5px;
+}
+
+.aa {
+
+    margin-top: 20px;
+    padding: 0px;
+
+}
+
+button {
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cancel {
+    background-color: aqua;
+    color: black;
+    transition: 0.5s;
+}
+
+.cancel:hover {
+    background-color: rgb(0, 151, 151);
+    color: rgb(255, 255, 255);
+}
+
+.delete {
+    background-color: red;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.delete:hover {
+    background-color: rgb(167, 2, 2);
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+
+
+span{
+    color: #ff0076;
+}
+
+
+
+
+
+
+
+
+
+main {
+    display: flex;
+    height: 50px;
+    background-color: var(--color-eee, #eee);
+    align-items: center;
+    gap: 10px;
+    padding: var(--start-page, 0 10px);
+    box-shadow: var(--box-shadow-lne, 1px 1px 5px 0px #bababa);
+    text-transform: capitalize;
+}
+
+.track {
+    display: inherit;
+    align-items: var(--align-it, center);
+}
+
+.track>h2,
+.track>span,
+.track>a {
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+main>h2 {
+    color: #67696b;
+}
+
+main>a,
+main>p {
+    font-weight: bold;
+}
+
+span a {
+    text-decoration: none;
+}

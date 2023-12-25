@@ -1,0 +1,61 @@
+h3{
+    margin: 0px;
+}
+H4{
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+h5{
+    margin: 5px;
+    font-size: 15px;
+}
+/* .main-section{
+    height: auto;
+} */
+main {
+    display: flex;
+    height: 50px;
+    background-color: var(--color-eee, #eee);
+    align-items: center;
+    gap: 10px;
+    padding: var(--start-page, 0 10px);
+    box-shadow: var(--box-shadow-lne, 1px 1px 5px 0px #b7b7b7);
+    text-transform: capitalize;
+  }
+  .track {
+    display: inherit;
+    align-items: var(--align-it, center);
+  }
+  .track > h2,
+  .track > span,
+  .track > a {
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+  }
+   span a {
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+  }
+  main > h2 {
+    color: #67696b;
+  }
+  main > a,
+  main > p {
+    font-weight: bold;
+  }
+
+  #first_table{
+    max-width: 700px;
+    min-height: 200PX;
+    margin: 15px;
+  }
+  #first_table2{
+    max-width: 700px;
+    min-height: 200PX;
+    margin: 15px;
+    background-color: #07c6001a;
+  }
