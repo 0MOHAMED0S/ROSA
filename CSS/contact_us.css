@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+    /* background-image: url(../files/main_images/wallpaperflare222.com_wallpaper\ \(1\).jpg); */
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    color: #f1f1f1;
+    min-height: 100vh;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    min-height: 90%;
+    min-width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px;
+    box-shadow: 0 0 10px #ff0076;
+    background-color: #67696b;
+    margin: 25px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 38px;
+    font-family: math;
+    color: #ff0076;
+}
+
+.login-form input {
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    border-radius: 7px;
+    border: none;
+
+}
+
+.login-form input:hover {
+    box-shadow: 3px 3px 3px 3px rgb(189, 176, 176);
+
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background-color: #ff0076;
+    color: white;
+    border: 1px solid #ff0076;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 150px;
+    position: relative;
+    transition: 0.5s;
+    border-radius: 25px;
+}
+
+.login-form button:hover {
+
+    background-color:#ffffff;
+    color: #ff0076;
+
+
+}
+
+
+
+
+label {
+    font-size: 25px;
+}
+
+.la {
+    font-size: 15px;
+    position: absolute;
+    top: -230px;
+    left: 77px;
+    font-family: serif;
+}
+
+.re {
+
+    position: relative;
+
+
+
+}
+
+.in {
+
+    margin-top: px;
+    width: 50%;
+    position: absolute;
+    top: -230px;
+    left: 60px;
+}
+
+.aa {
+    color: rgb(247, 247, 247);
+    font-size: 15px;
+    position: absolute;
+    top: -230px;
+    left: 300px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.img1 {
+    width: 120px;
+    position: relative;
+}
+
+h4 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+
+}
+
+.lab1 {
+    position: relative;
+    color: #ffffff;
+}
+
+.lab2 {
+    position: relative;
+    color: #ffffff;
+}
+
+.lab3 {
+    position: relative;
+    color: #ffffff;
+}
+
+textarea {
+    width: 288px;
+    height: 91px;
+    border-radius: 10px;
+}
+
+select{
+    width: 250px;
+    height: 34px;
+    border-radius: 20px;
+}
+select option{
+    text-align: center;
+}
